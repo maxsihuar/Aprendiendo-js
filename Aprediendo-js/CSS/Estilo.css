@@ -1,0 +1,18 @@
+*{
+	padding:2px;
+	margin:1px;
+}
+body{
+	background-color:#FFE280;
+}
+.borde{
+	border:1px solid black;
+	background-color:white;
+}
+.buton{
+	border-radius:2%;
+	border:1px solid;
+}
+.tabla{
+	borde:2px solid #000000;
+}
