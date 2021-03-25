@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+	<script rel="text/javascrip" src="Js/Propiedades.js"></script>
+	<meta charset="UTF-8">
+	<title>tic tac toe</title>
+</head>
+<body>
+<center><table>
+ <tr>
+ <td class="tabla-r" id="cuadro-1">.  .  .</td>
+ <td class="tabla" id="cuadro-2">.  .  .</td>
+ <td class="tabla" id="cuadro-3">.  .  .</td>
+ </tr>
+ <tr>
+ <td class="tabla-d-1" id="cuadro-4">.  .  .</td>
+ <td class="tabla-d" id="cuadro-5">.  .  .</td>
+ <td class="tabla-d" id="cuadro-6">.  .  .</td>
+ </tr>
+ <tr>
+ <td class="tabla-r"id="cuadro-7">.  .  .</td>
+ <td class="tabla" id="cuadro-8">.  .  .</td>
+ <td class="tabla" id="cuadro-9">.  .  .</td>
+ </tr>
+</center></table>
+<div class="grid-t">
+ <table class="m-tabla">
+  <tr>
+   <td class="tabla-m-r" id="casillax1"><button onclick="cuadro1x()">x</button></td>
+   <td class="tabla-m" id="casillax2"><button onclick="cuadro2x()">x</button></td>
+   <td class="tabla-m" id="casillax3"><button onclick="cuadro3x()">x</button></td>
+  </tr>  
+  <tr>
+   <td class="tabla-m-d-1" id="casillax4"><button onclick="cuadro4x()">x</button></td>
+   <td class="tabla-m-d" id="casillax5"><button onclick="cuadro5x()">x</button></td>
+   <td class="tabla-m-d" id="casillax6"><button onclick="cuadro6x()">x</button></td>
+  </tr> 
+  <tr>
+   <td class="tabla-m-r" id="casillax7"><button onclick="cuadro7x()">x</button></td>
+   <td class="tabla-m" id="casillax8"><button onclick="cuadro8x()">x</button></td>
+   <td class="tabla-m"id="casillax9"><button onclick="cuadro9x()">x</button></td>
+  </tr>
+ </table>
+ 
+
+ <table>
+  <tr>
+   <td class="tabla-m-r" id="casillao1"><button onclick="cuadro1o()">o</button></td>
+   <td class="tabla-m" id="casillao2"><button onclick="cuadro2o()">o</button></td>
+   <td class="tabla-m" id="casillao3"><button onclick="cuadro3o()">o</button></td> 
+  </tr>  
+  <tr>
+   <td class="tabla-m-d-1"id="casillao4"><button onclick="cuadro4o()">o</button></td>
+   <td class="tabla-m-d" id="casillao5"><button onclick="cuadro5o()">o</button></td>
+   <td class="tabla-m-d" id="casillao6"><button onclick="cuadro6o()">o</button></td>
+  </tr> 
+  <tr>
+   <td class="tabla-m-r" id="casillao7"><button onclick="cuadro7o()">o</button></td>
+   <td class="tabla-m" id="casillao8"><button onclick="cuadro8o()">o</button></td>
+   <td class="tabla-m" id="casillao9"><button onclick="cuadro9o()">o</button></td>
+  </tr>
+ </table>
+</div>
+<button onclick="comprobar()">Compueba si ganaste</button>
+</body>
+</html>
