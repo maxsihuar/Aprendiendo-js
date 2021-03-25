@@ -54,3 +54,10 @@ div tr td button:hover{
 	display:grid;
 	grid-template-columns:50% 50%;
 }
+.Puntos{
+	background-color:red;
+	height:30px;
+}
+.Puntos:before{
+	border-radius:34px;
+}
