@@ -1,0 +1,17 @@
+.container{
+	height:60px;
+	background-color:#E8FF46;
+}
+ul li{
+	list-style-type:none;
+}
+ul{
+	display:grid;
+	grid-template-columns:80% 10% 10%;
+}
+.nav-container{
+	font-size:1.5em;
+}
+a:hover{
+	color:#C00000;
+}
