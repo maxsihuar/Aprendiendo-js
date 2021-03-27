@@ -11,7 +11,18 @@ ul{
 }
 .nav-container{
 	font-size:1.5em;
+	margin-top:0.5em;
+}
+a{
+	color:black;
+	border-color:#FFFFFF;
 }
 a:hover{
-	color:#C00000;
+	color:#DCDADA;
+}
+.fas fa-house-user{
+	text-decoration:none;
+}
+.fas fa-house-user.user{
+	background:black;
 }
