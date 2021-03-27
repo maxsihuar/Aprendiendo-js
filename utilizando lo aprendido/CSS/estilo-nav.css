@@ -1,7 +1,14 @@
+
+/*....Contenedores....*/
 .container{
 	height:60px;
 	background-color:#E8FF46;
 }
+.nav-container{
+	font-size:1.5em;
+	margin-top:0.5em;
+}
+/*....Contenido del navbar....*/
 ul li{
 	list-style-type:none;
 }
@@ -9,20 +16,15 @@ ul{
 	display:grid;
 	grid-template-columns:80% 10% 10%;
 }
-.nav-container{
-	font-size:1.5em;
-	margin-top:0.5em;
-}
+/*....Texto....*/
 a{
 	color:black;
-	border-color:#FFFFFF;
 }
-a:hover{
-	color:#DCDADA;
-}
+/*....Imagenes....*/
 .fas fa-house-user{
 	text-decoration:none;
 }
-.fas fa-house-user.user{
-	background:black;
+/*....Estilos....*/
+a:hover{
+	color:#DCDADA;
 }
