@@ -2,11 +2,13 @@
 /*....Contenedores....*/
 .container{
 	height:60px;
-	background-color:#E8FF46;
+	border:2px solid #000000;
+	background-color:#CDCDCD;
+	margin-top:1.3em;
 }
 .nav-container{
 	font-size:1.5em;
-	margin-top:0.5em;
+	margin-bottom:0.9em;
 }
 /*....Contenido del navbar....*/
 ul li{
@@ -14,17 +16,44 @@ ul li{
 }
 ul{
 	display:grid;
-	grid-template-columns:80% 10% 10%;
+	grid-template-columns:15% 15% 20% 18%;
+}
+button{
+	background-color:transparent;
+	border-color:transparent;
+	color:#404040;
+	transition-property: all;
+    transition-duration:0.5s;
 }
 /*....Texto....*/
 a{
-	color:black;
+	color:#404040;
+	text-decoration:none;
+	transition-property: all;
+    transition-duration:0.5s;
 }
 /*....Imagenes....*/
-.fas fa-house-user{
-	text-decoration:none;
+li i{
+	font-size:1.3em;
+}
+.fas.fa-house-user{
+	color:blue;
+}
+.fas.fa-user-friends{
+	color:green;
+}
+.fas.fa-gamepad{
+	color:#FFC100;
+}
+.fas.fa-chess-queen{
+	color:#F80E0E;
 }
 /*....Estilos....*/
 a:hover{
-	color:#DCDADA;
+	color:#000000;
+	font-size:30px;
+}
+button:hover{
+	color:#000000;
+	font-size:30px;
 }
