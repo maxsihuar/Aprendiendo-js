@@ -1,5 +1,11 @@
 
 /*....Contenedores....*/
+body{
+	background:#FFFFFF;
+	transition-property:all;
+	transition-duration:1s;
+	font-family: 'Montserrat', sans-serif;
+}
 .container{
 	height:60px;
 	border:2px solid #000000;
@@ -11,17 +17,33 @@
 	font-size:1.5em;
 	margin-bottom:0.9em;
 }
+.imagenes-body{
+	display:flex;
+    flex-direction:column;
+	flex-direction:row;
+	margin-bottom:2em;
+}
+
 /*....Contenido del navbar....*/
 ul li{
 	list-style-type:none;
 }
 ul{
 	display:grid;
-	grid-template-columns:15% 15% 20% 18% 4.5%;
+	grid-template-columns:12% 15% 15% 24% 18% 10% 5%;
 }
 button{
 	font-size:1.5em;
+	width:2.5em;
 	margin-bottom:0.9em;
+	transition-property: all;
+    transition-duration:0.5s;
+}
+/*....Contenido del flexbox*/
+.imagenes-body img{
+	width:20%;
+	height:20%;
+	margin-top:2em;
 }
 /*....Texto....*/
 a{
@@ -30,7 +52,6 @@ a{
 	transition-property: all;
     transition-duration:0.5s;
 }
-
 /*....Imagenes....*/
 li i{
 	font-size:1.3em;
