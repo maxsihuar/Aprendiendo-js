@@ -25,11 +25,12 @@ button{
 }
 /*....Texto....*/
 a{
-	color:#404040;
+	color:#282828;
 	text-decoration:none;
 	transition-property: all;
     transition-duration:0.5s;
 }
+
 /*....Imagenes....*/
 li i{
 	font-size:1.3em;

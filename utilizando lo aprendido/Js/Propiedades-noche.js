@@ -1,6 +1,11 @@
-const btnSwitch = document.querySelector("#cambio");
+function Update(){
+	var BtnCambio = document.getElementById("cambio");
+	BtnCambio.addEventListener("click", Cambiar);
+}
+
 function Cambiar(){
-	document.body.innerHTML('class="oscuro"');
-	btnSwitch.classList.toggle('activo');
+	var BtnCambio = document.getElementById("cambio");
+	document.body.classList.toggle("oscuro");
+	BtnCambio.classList.toggle("activo");
 }
 
