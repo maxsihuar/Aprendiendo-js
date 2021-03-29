@@ -36,6 +36,10 @@ body.oscuro a{
 body.oscuro span{
 	color:#FFFFFF;
 }
+/*....Contenedores....*/
+body.oscuro div div{
+	background:#141212;
+}
 /*....Estilo-seudoclase....*/
 .cambio:after{
 	content: "";

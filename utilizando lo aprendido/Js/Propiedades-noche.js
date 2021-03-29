@@ -1,4 +1,4 @@
-function Update(){
+function Start(){
 	var BtnCambio = document.getElementById("cambio");
 	BtnCambio.addEventListener("click", Cambiar);
 }
